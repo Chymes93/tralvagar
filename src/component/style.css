@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "mulish", sans-serif;
+}
+
+
+.navbar {
+    padding: 0 !important;
+}
+
+
+.hero-btn {
+    outline: none;
+    box-shadow: none;
+    border: 0px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    background-color: #458FF6;
+    
+
+}
+
+.hero-space {
+    margin-top: 150px;
+}
+
+
+
+.row {
+    margin: 0 !important;
+}
+
+.content-text {
+    margin-top: 100px;
+    
+}
+
+.content-space {
+    margin-top: 100px;
+}
+
+.content-btn {
+    /* outline: none;
+    box-shadow: none; */
+    border: 10px;
+    padding: 10px 25px;
+    color: #458FF6;
+    border-radius: 25px;
+    background-color: white;
+    border-color: #458FF6;
+    
+
+}
+
+
+.service-header p {
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.footer-img {
+    padding: 0 !important;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    br {
+        display: none;
+    }
+
+    .hero-space {
+        margin-bottom: 40px;
+    }
+
+    .hero-space h1 {
+        font-size: 24px;
+    }
+
+    .hero-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1000px) {
+    .hero-space h1 {
+        font-size: 44px;
+    }
+
+    .hero-space p {
+        font-size: 24px;
+    }
+
+    .myCard {
+        height: 382px !important;
+    }
+}
+
